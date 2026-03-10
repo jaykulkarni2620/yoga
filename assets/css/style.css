@@ -87,7 +87,7 @@ p{
 /* Home Page Header Section Style */
 
 .banner-section-outer{
-    background-image: url('../images/banner_section_background.jpg');
+    background-image: url('../images/banner_client_1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -752,7 +752,7 @@ p{
     position: absolute;
 }
 .get_in_touch_section::after {
-    background: url(../images/get_in_touch_image.jpg);
+    background: url(../images/yoga_4.png);
     content: "";
     width: 50%;
     height: 806px;
@@ -993,6 +993,124 @@ textarea {
     background-color: var(--e-global-color-secondary);
     transform: translateY(-10px);
 }
+
+
+/* our instructor section css
+/* Section */
+/* .instructor-section{
+    background:#ffffff;
+    padding:100px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container 
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Layout 
+.instructor-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+/* Image 
+.instructor-image{
+    flex:1;
+    text-align:center;
+}
+
+.instructor-image img{
+    width:380px;
+    max-width:100%;
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Floating animation 
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* Content 
+.instructor-content{
+    flex:1;
+}
+
+.instructor-content h4{
+    color:#f38b6d;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.instructor-content h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#222;
+}
+
+.instructor-content p{
+    font-size:16px;
+    line-height:1.7;
+    color:#555;
+    margin-bottom:20px;
+}
+
+/* List 
+.instructor-content ul{
+    list-style:none;
+    padding:0;
+    margin-bottom:30px;
+}
+
+.instructor-content ul li{
+    margin-bottom:10px;
+    color:#333;
+}
+
+/* Button 
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:#f38b6d;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#222;
+}
+
+@media (max-width:768px){
+
+    .instructor-wrapper{
+        flex-direction:column;
+        text-align:center;
+    }
+    
+    .instructor-content h2{
+        font-size:30px;
+    }
+    
+    .instructor-image img{
+        width:280px;
+    }
+    
+    } 
+ */
 
 /* Home Page Testimonial Section Style */
 
